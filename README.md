@@ -1,4 +1,4 @@
 # tool-settings
 
-- vscode settings
+- vscode python settings
 
