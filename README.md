@@ -2,3 +2,6 @@
 
 - vscode python settings
 
+- vscode scala settings
+
+
