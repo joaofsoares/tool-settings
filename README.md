@@ -4,4 +4,4 @@
 
 - vscode scala settings
 
-
+- intellij color scheme
