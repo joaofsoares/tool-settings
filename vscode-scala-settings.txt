@@ -1,26 +1,16 @@
 {
     "editor.rulers": [
-80
-],
-"editor.renderWhitespace": "boundary",
-"editor.wordWrap": "wordWrapColumn",
-"editor.wordWrapColumn": 80,
-"editor.formatOnSave": true,
-"editor.fontSize": 14,
-"editor.tabSize": 2,
-"editor.suggestSelection": "first",
-"files.autoSave": "afterDelay",
-"workbench.startupEditor": "newUntitledFile",
-"code-runner.clearPreviousOutput": true,
-"code-runner.showExecutionMessage": false,
-"code-runner.ignoreSelection": true,
-"code-runner.saveFileBeforeRun": true,
-"code-runner.executorMap": {
-"scala": "/Users/jfsoares/Development/scala-2.13.0/bin/scala"
-},
-"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-"python.jediEnabled": false,
-"dotty.trace.machineId": "4366b23e-8ad3-430a-a36a-0252edce13b4",
-"typescript.updateImportsOnFileMove.enabled": "always",
-"metals.javaHome": "/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home"
+        80
+    ],
+    "editor.renderWhitespace": "boundary",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+    "editor.suggestSelection": "first",
+    "workbench.startupEditor": "newUntitledFile",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.formatting.provider": "autopep8",
+    "python.pythonPath": "/usr/bin/python3",
 }
