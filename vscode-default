@@ -1,0 +1,23 @@
+{
+    "editor.rulers": [
+        80
+    ],
+    "editor.renderWhitespace": "boundary",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 10,
+    "editor.insertSpaces": true,
+    "editor.renderLineHighlight": "none",
+    "editor.suggestSelection": "recentlyUsed",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Sublime Monokai",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Microsoft",
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+}
