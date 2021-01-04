@@ -11,13 +11,33 @@
     "editor.insertSpaces": true,
     "editor.renderLineHighlight": "none",
     "editor.suggestSelection": "recentlyUsed",
+    "editor.fontSize": 16,
+    "editor.detectIndentation": true,
+    "editor.tabSize": 4,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Sublime Monokai",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000"
+    },
+    "vsintellicode.modify.editor.suggestSelection": "disabled",
     "python.languageServer": "Microsoft",
     "files.watcherExclude": {
         "**/.bloop": true,
         "**/.metals": true,
         "**/.ammonite": true
+    },
+    "[scala]": {
+        "editor.suggestSelection": "first",
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true,
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
     },
 }
