@@ -1,0 +1,23 @@
+" Highlight copied text
+Plug 'machakann/vim-highlightedyank'
+" Commentary plugin
+Plug 'tpope/vim-commentary'
+
+set relativenumber
+set number
+
+let mapleader = " "
+
+vmap <leader>c "+y
+
+imap jj <Esc>
+
+nmap <C-d> <C-d>zz
+nmap <C-u> <C-u>zz
+nmap <leader>cf :%y+<CR>
+nmap <leader>d :action QuickJavaDoc<CR>
+nmap <leader>nf :action NewFile<CR>
+nmap <leader>ff :action GotoFile<CR>
+nmap <leader>fe :action SearchEverywhere<CR>
+nmap <leader>fs :action FindInPath<CR>
+nmap <leader>rf :action ShowUsages<CR>
