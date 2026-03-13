@@ -1,0 +1,103 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.lineNumbers": "relative",
+    "files.trimTrailingWhitespace": true,
+    "editor.rulers": [
+        80
+    ],
+    "workbench.colorTheme": "Default Light Modern",
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true
+    },
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "trailing",
+    "window.restoreWindows": "none",
+    "vim.highlightedyank.enable": true,
+    "vim.leader": " ",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "c"
+            ],
+            "commands": [
+                ":%y+"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.terminal.toggleTerminal"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "s"
+            ],
+            "commands": [
+                "workbench.view.search"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "after": [
+                "\"",
+                "+",
+                "y"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "s"
+            ],
+            "commands": [
+                "workbench.view.search"
+            ]
+        }
+    ],
+}
