@@ -55,6 +55,14 @@
             "commands": [
                 "workbench.view.search"
             ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ]
         }
     ],
     "vim.insertModeKeyBindings": [
