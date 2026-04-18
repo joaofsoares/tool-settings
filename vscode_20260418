@@ -1,0 +1,109 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.lineNumbers": "relative",
+    "files.trimTrailingWhitespace": true,
+    "editor.rulers": [
+        80
+    ],
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true
+    },
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "boundary",
+    "window.restoreWindows": "none",
+    "vim.highlightedyank.enable": true,
+    "vim.leader": " ",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "c"
+            ],
+            "commands": [
+                ":%y+"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.terminal.toggleTerminal"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "s"
+            ],
+            "commands": [
+                "workbench.view.search"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "after": [
+                "\"",
+                "+",
+                "y"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "s"
+            ],
+            "commands": [
+                "workbench.view.search"
+            ]
+        }
+    ],
+    "zig.zls.enabled": "on",
+    "redhat.telemetry.enabled": true,
+    "git.blame.ignoreWhitespace": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.defaultFormatter": "redhat.java",
+    "editor.detectIndentation": false,
+    "workbench.colorTheme": "Dark Modern",
+    "git.openRepositoryInParentFolders": "always",
+}
