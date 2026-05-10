@@ -1,4 +1,35 @@
 {
+  "restore_on_startup": "empty_tab",
+  "disable_ai": true,
+  "terminal": {
+    "font_size": 16.0,
+  },
+  "preferred_line_length": 80,
+  "show_whitespaces": "boundary",
+  "theme": "Ayu Dark",
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "vim_mode": true,
+  "format_on_save": "on",
+  "relative_line_numbers": "enabled",
+  "wrap_guides": [80],
+}
+{
   "disable_ai": true,
   "terminal": {
     "font_size": 16.0,
