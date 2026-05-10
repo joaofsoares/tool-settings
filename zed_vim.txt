@@ -54,4 +54,10 @@
       "space k": "pane::CloseActiveItem",
     },
   },
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space t": "terminal_panel::ToggleFocus",
+    },
+  },
 ]
