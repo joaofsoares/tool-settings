@@ -1,6 +1,6 @@
 {
   "terminal": {
-    "font_size": 16.0
+    "font_size": 16.0,
   },
   "preferred_line_length": 80,
   "show_whitespaces": "boundary",
@@ -25,4 +25,5 @@
   "vim_mode": true,
   "format_on_save": "on",
   "relative_line_numbers": "enabled",
+  "wrap_guides": [80],
 }
