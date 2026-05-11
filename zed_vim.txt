@@ -7,21 +7,29 @@
 // from the command palette.
 [
   {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space f f": "file_finder::Toggle",
+      "space e": "project_panel::ToggleFocus",
+      "space k": "pane::CloseActiveItem",
+      "space t": "terminal_panel::ToggleFocus",
+      "alt-k": "editor::MoveLineUp",
+      "alt-j": "editor::MoveLineDown",
+      "ctrl-u": ["workspace::SendKeystrokes", "ctrl-u z z"],
+      "ctrl-d": ["workspace::SendKeystrokes", "ctrl-d z z"],
+      "space f c": ["workspace::SendKeystrokes", "g g shift-_ v shift-g y"],
+    },
+  },
+  {
     "context": "Editor && vim_mode == insert",
     "bindings": {
-      "j j": "vim::SwitchToNormalMode",
+      "j j": ["workspace::SendKeystrokes", "escape"],
     },
   },
   {
     "context": "Editor && vim_mode == visual",
     "bindings": {
       "space c": "vim::VisualYank",
-    },
-  },
-  {
-    "context": "Editor && vim_mode == normal",
-    "bindings": {
-      "space f f": "file_finder::Toggle",
     },
   },
   {
@@ -37,27 +45,9 @@
     },
   },
   {
-    "context": "Editor && vim_mode == normal",
-    "bindings": {
-      "space e": "project_panel::ToggleFocus",
-    },
-  },
-  {
     "context": "ProjectPanel",
     "bindings": {
       "space e": "project_panel::ToggleFocus",
-    },
-  },
-  {
-    "context": "Editor && vim_mode == normal",
-    "bindings": {
-      "space k": "pane::CloseActiveItem",
-    },
-  },
-  {
-    "context": "Editor && vim_mode == normal",
-    "bindings": {
-      "space t": "terminal_panel::ToggleFocus",
     },
   },
 ]
