@@ -18,6 +18,7 @@
       "ctrl-u": ["workspace::SendKeystrokes", "ctrl-u z z"],
       "ctrl-d": ["workspace::SendKeystrokes", "ctrl-d z z"],
       "space f c": ["workspace::SendKeystrokes", "g g shift-_ v shift-g y"],
+      "space q": "workspace::CloseWindow",
     },
   },
   {
